@@ -23,7 +23,7 @@ export default {
         }
     },
     methods: {
-        add() {
+        add() {0
             this.result = parseInt(this.firstNumber) + parseInt(this.secondNumber);
         },
         subtract() {

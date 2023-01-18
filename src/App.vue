@@ -1,18 +1,14 @@
 <template>
   <div id="app">
     <CalculatorDisplay />
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
 <script>
 import CalculatorDisplay from "./components/Calculator.vue"
-// import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   components: {
-    // HelloWorld
     CalculatorDisplay
   }
 }
